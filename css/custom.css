@@ -1,0 +1,74 @@
+/* this is the custom CSS file*/
+footer{
+	padding: 2em 0;
+	margin: 3em 0;
+	color: gray;
+	border-top: 2px dashed #ddd;
+	text-align: center;
+}
+
+
+.glyphicon {
+ color:blue;
+}
+
+header{
+	padding: 50px;
+}
+
+.active .glyphicon{
+	color: red;
+}
+
+.pull-right.img-responsive{
+	margin:0 0 1em 1em;
+}
+
+
+.btn-info {
+    background-color: #cdae51;
+    border-color: #3F2B22;
+    color: #FFFFFF;
+}
+
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+
+.breadcrumb > li + li:before {
+  content: none;
+}
+
+.navbar-inverse .navbar-toggle {
+	color: white;
+	font-weight: bold;
+	border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #ddd;
+	color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+	color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+	color: #333;
+}
+
+.tab-pane{
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	padding: 1em;
+}
+
+
+
+
